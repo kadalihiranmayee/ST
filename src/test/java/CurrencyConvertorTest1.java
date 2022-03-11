@@ -11,8 +11,8 @@ public class CurrencyConvertorTest1 {
     }
 
     @Test
-    public void test_sek_to_rupees(){
-        assertEquals(90,obj.sek_to_rupees(10));
+    public void test_dollar_to_rupees(){
+        assertEquals(800,obj.dollar_to_rupees(10));
     }
 
 }
